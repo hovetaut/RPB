@@ -30,3 +30,4 @@ git pull upstream inprogress     // (remote, branch)  this does pull down files 
 
 git add <filename>       // (or *)  adds files to index (staging area)
 
+sadd
