@@ -19,7 +19,11 @@ git fetch upstream
 
 git checkout master
 
+git checkout -b inprogress
 
+git pull                      //doesn't do anything with branches
+
+git pull upstream inprogress     // (remote, branch)  this does pull down files in branch (probably have to be committred ) 
 
 
 
