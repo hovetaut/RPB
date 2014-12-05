@@ -1,0 +1,25 @@
+(need to do the git clone step(s) first)
+
+(in git dir)
+git config credential.helper cache
+
+git config -l
+
+git clone https://github.com/hovetaut/RPB
+
+cd RPB
+
+git remote -v     //should shoe 2 
+
+git remote add upstream https://github.com/hovetaut/RPB 
+
+now it remote -v will show 4
+
+git fetch upstream
+
+git checkout master
+
+
+
+
+
