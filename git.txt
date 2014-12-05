@@ -25,5 +25,5 @@ git pull                      //doesn't do anything with branches
 
 git pull upstream inprogress     // (remote, branch)  this does pull down files in branch (probably have to be committred ) 
 
-
+? what is fetch versus  pull ?     (maybe hint:  fetch appears in git remote -v )
 
