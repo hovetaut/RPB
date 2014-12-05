@@ -28,3 +28,5 @@ git pull upstream inprogress     // (remote, branch)  this does pull down files 
 
 ? what is fetch versus  pull ?     (maybe hint:  fetch appears in git remote -v )
 
+git add <filename>       // (or *)  adds files to index (staging area)
+
