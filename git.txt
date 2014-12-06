@@ -1,4 +1,15 @@
 (need to do the git clone step(s) first)
+cd git
+cd rpb
+git init
+git config --global user.name rbye
+git config --global user.email hovetaut@gmail.com
+
+
+https://github.com/hovetaut/RPB/blob/master/git.txt
+
+on github, In the right sidebar of your fork's repository page, click (clipboard icon with <-  arrow)to copy the clone URL for your fork. 
+
 
 (in git dir)
 git config credential.helper cache
