@@ -1,13 +1,20 @@
 (need to do the git clone step(s) first)
-
+cd git
+ !! don't do this !!    cd rpb
+git init
+git config --global user.name rbye
+git config --global user.email hovetaut@gmail.com
 (in git dir)
 git config credential.helper cache
-
+git config --global credential.helper 'cache --timeout=3600'
 git config -l
 
+(the examplles of doing the clone with "git clone username@host:/path/to/repository" don't seem to  have it right.)
+on github, In the right sidebar of your fork's repository page, click (clipboard icon with <-  arrow)to copy the clone URL for your fork. 
+then paste it into the git clone cmd: 
+git clone https://github.com/hovetaut/RPB.git
+or maybe:
 git clone https://github.com/hovetaut/RPB
-
-cd RPB
 
 git remote -v     //should shoe 2 
 
@@ -30,4 +37,5 @@ git pull upstream inprogress     // (remote, branch)  this does pull down files 
 
 git add <filename>       // (or *)  adds files to index (staging area)
 
-sadd
+in open source progects, the server with the central repo is usally called "origin", 
+and your fork of it (e.g. on github) is called "upstream"
