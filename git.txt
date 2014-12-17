@@ -1,7 +1,7 @@
 merging branches:  merge "with" branch x means merge commits from x into the current branch.
 (x will still be behind current branch if that's all you do.)
 
-
+version A
 
 
 (need to do the git clone step(s) first)
